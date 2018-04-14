@@ -1,5 +1,5 @@
-# www.facefighterapp.com
+# www.fiestaone.com
 
-## Your Face is the Controller.
+## Your Festival’s Mobile Guide
 
-The addictive AR game for iPhone X.
+Premium mobile white-label apps for concert series and music festivals. Available on iOS and Android.
