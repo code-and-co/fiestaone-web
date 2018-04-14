@@ -1,0 +1,107 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Fiesta One – Premium mobile white-label apps for concert series and music festivals. Available on iOS and Android.
+email: hello@codeandco.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Fiesta One – Premium mobile white-label apps for concert series and music festivals. Available on iOS and Android. Produced by code & co. at www.codeandco.com.
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.fiestaone.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# custom page settings
+google_analytics_container_id: UA-75779488-8
+google_site_verification:
+
+canonical: http://www.fiestaone.com
+
+og_image:
+og_url: http://www.fiestaone.com
+
+twitter_site:
+twitter_creator:
+twitter_image:
+twitter_alt:
+
+appStoreLink: https://itunes.apple.com/de/app/rheingau-musik-festival/id1342729274?mt=8
+playStoreLink: https://play.google.com/store/apps/details?id=com.codeandco.rmf
+
+appStoreBadgeLink:
+playStoreBadgeLink:
+
+show_logo: true
+primary_cta_label: Become a Partner
+
+show_app_icon: false
+app_icon_alignment: text-left
+
+title_line_1: Your Festival's
+title_line_2: Mobile Guide
+title_alignment: text-left
+
+subtitle:
+subtitle_alignment:
+
+description: Premium mobile white-label apps for concert series and music festivals. Available on iOS and Android.
+description_alignment: text-left
+
+features_list:
+  - icon: news@4x.png
+    icon_alt: Keep festival goers updated with the latest festival news
+    text: Keep festival goers updated with the latest festival news
+  - icon: calendar@4x.png
+    icon_alt: Reveal the festival season and sell tickets
+    text: Reveal the festival season and sell tickets
+  - icon: find@4x.png
+    icon_alt: Display digital media and more
+    text: Display digital media and more
+
+case_study_description: Rheingau Musik Festival, one of Europe’s largest music festivals with over 170 concerts.
+case_study_link: https://www.rheingau-musik-festival-app.de/index.html
+
+impressum_link: https://www.codeandco.com/impressum/
+terms_link: https://www.codeandco.com/terms/
+privacy_notice_link: https://www.codeandco.com/privacy-notice/
+contact_link: https://www.codeandco.com/contact/
+
+# if custom navigation:
+main_nav:
+#  - title:
+#    url:
+
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-feed
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - gulpfile.js
+  - package.json
+  - scss
+  - .DS_Store
+  - .idea

@@ -1,0 +1,30 @@
+<!-- header of the page -->
+<header id="header">
+    <nav class="navbar navbar-default mt-2">
+            {% if site.primary_cta_label %}
+            <a class="ml-auto btn btn-primary" href="{{ site.contact_link }}" target="_blank" rel="noopener noreferrer">{{ site.primary_cta_label }}</a>
+            {% endif %}
+        <div class="container-fluid">
+            <div class="navbar-header mx-auto">
+                {% if site.show_logo %}
+                    <a class="navbar-brand" href="{{ site.url }}"
+                       target="_blank" rel="noopener noreferrer">
+                        <picture>
+                            <source srcset="{{ site.url }}/images/logo.png, {{ site.url }}/images/logo@2x.png 2x">
+                            <img src="{{ site.url }}/images/logo.png" alt="{{ site.title }}">
+                        </picture>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--<ul id="nav"-->
+<!--class="list-unstyled mb-0 d-flex flex-column flex-md-row align-items-end align-items-md-center text-uppercase">-->
+<!--{% for link in site.main_nav %}-->
+<!--<li class="{% if page.url contains link.url %}active{% endif %} {% if link.color %}{{ link.color }}{% endif %}">-->
+<!--<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>-->
+<!--</li>-->
+<!--{% endfor %}-->
+<!--</ul>-->

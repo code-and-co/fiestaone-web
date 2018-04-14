@@ -1,0 +1,85 @@
+---
+layout: default
+body_class: ''
+---
+
+
+<div class="container">
+    <div class="row align-items-center">
+
+        <!-- content-->
+        <div class="col-lg-5 offset-lg-1 col-md-9 offset-md-3 col-sm-12 order-last order-lg-first order-xl-first">
+            <div class="{{ site.app_icon_alignment }}">
+                {% if site.show_app_icon %}
+                <div class="mb-2">
+                    <a class="navbar-brand" href="{{ site.appStoreLink }}" target="_blank" rel="noopener noreferrer">
+                        <img src="{{ site.url }}/images/ios-app-icon@2x.png" alt="{{ site.title }}">
+                    </a>
+                </div>
+                {% endif %}
+
+                <div class="d-block d-sm-none mobile-spacing"><!-- spacing hack on mobile --></div>
+
+                {% if site.title_line_1 %}
+                <h1 class="mt-2 mb-4 title {{ site.title_alignment }}">{{ site.title_line_1 }} <br class="d-none d-sm-block">{{ site.title_line_2 }}</h1>
+                {% endif %}
+
+                {% if site.subtitle %}
+                <h3 class="mb-2 subtitle {{ site.subtitle_alignment }}">{{ site.subtitle }}</h3>
+                {% endif %}
+
+                {% if site.description %}
+                <p class="description {{ site.description_alignment }}">{{ site.description }}</p>
+                {% endif %}
+            </div>
+
+            {% if site.features_list != nil %}
+            <ul class="list-unstyled">
+                {% for feature in site.features_list %}
+                <li class="custom-control-inline">
+                    <div class="features-list-item">
+                        <span class="text-center">
+                          <img class="" alt="{{ feature.icon_alt }}" src="{{ site.url }}/images/{{ feature.icon }}">
+                        </span>
+                        <p class="text-left">{{ feature.text }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            <ul class="list-unstyled custom-control-inline text-center">
+                {% if site.appStoreBadgeLink %}
+                <li>
+                    <a class="col-sm-6" href="{{ site.appStoreBadgeLink }}" target="_blank" rel="noopener noreferrer">
+                        <img class="app-store-badge" src="{{ site.url }}/images/appstore-badge@4x.png" alt="Rheingau Musik Festival - App on the Apple App Store">
+                    </a>
+                </li>
+                {% endif %}
+                {% if site.playStoreBadgeLink %}
+                <li>
+                    <a class="col-sm-6" href="{{ site.playStoreBadgeLink }}" target="_blank" rel="noopener noreferrer">
+                        <img class="app-store-badge" src="{{ site.url }}/images/playstore-badge@4x.png" alt="Rheingau Musik Festival - App on the Google Play Store">
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+        <!-- end content -->
+
+        <!-- devices -->
+        <div class="text-center col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <a href="{{ site.appStoreLink }}" target="_blank" rel="noopener noreferrer">
+                <img class="iphone-android-group" src="{{ site.url }}/images/iphone-android@2x.png" alt="">
+            </a>
+            <div class="mx-auto mt-3 app-case-study-text text-left">
+                <p>Case Study: {{ site.case_study_description }} &middot;
+                    <a href="{{ site.case_study_link }}" target="_blank" rel="noopener noreferrer">learn more</a></p>
+            </div>
+        </div>
+        <!-- end devices -->
+
+    </div>
+    <!-- end row-->
+</div>
+<!-- end container-->

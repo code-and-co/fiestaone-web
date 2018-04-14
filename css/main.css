@@ -1,0 +1,150 @@
+/* ---------------------------------------------------------
+   1. Embedded fonts styles
+   ---------------------------------------------------------*/
+
+/*@font-face {*/
+  /*font-family: 'KBPayTheLady';*/
+  /*src: url("../fonts/KBPayTheLady.ttf") format("truetype");*/
+  /*font-weight: 400;*/
+  /*font-style: normal;*/
+/*}*/
+
+
+/* ---------------------------------------------------------
+   2. Common site styles
+   ---------------------------------------------------------*/
+
+html {
+  min-height: 100vh;
+}
+body {
+  background: url(/images/background@3x.jpg) no-repeat center center fixed;
+  /*background: linear-gradient(225deg, #99D6F5 0%, #749CF6 100%);*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-size: 16px;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  color: #fff;
+}
+
+#main {
+  margin-top: 7.5vh;
+}
+
+.navbar-brand img {
+  max-width: 11.125rem;
+  text-align: center;
+}
+
+.btn-primary {
+  background: #FEF11E;
+  border-color: #FEF11E;
+  color: #0C0C0B;
+  padding: 0.625rem 1.8125rem;
+}
+
+.app-icon {
+  width: 6rem;
+}
+
+.title {
+  color: #fff;
+  font-family: inherit;
+  font-size: 2.8125rem;
+  font-weight: 500;
+  line-height: 3.25rem;
+  text-shadow: 0 2px 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.subtitle {
+  font-family: inherit;
+}
+
+.description {
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.125rem;
+  font-weight: 100;
+  line-height: 1.5625rem;
+  text-shadow: 0 2px 0 0 rgba(0,0,0,0.5);
+}
+
+.mobile-spacing {
+  height: .5rem;
+}
+
+
+ul.list-unstyled li span {
+  width: 2rem;
+  margin-right: 1.25rem;
+}
+
+ul.list-unstyled li span img {
+  height: 1rem;
+}
+
+.features-list-item {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.app-store-badge {
+  width: 10.333rem;
+  height: auto;
+}
+
+a:hover, a:focus, a:active,
+.app-store-badge:hover, .app-store-badge:focus, .app-store-badge:active {
+  opacity: .8;
+}
+
+.iphone-android-group {
+  max-height: 29rem;
+  width: auto;
+  max-width: 90vw;
+}
+
+.app-case-study-text {
+  width: 19.5rem;
+  max-width: 90vw;
+}
+
+.app-case-study-text p:before {
+  /*content: url('../images/appstorerating@3x.png');*/
+  content: '★★★★★';
+  color: #FF9500;
+  margin-right: 0.25rem;
+}
+
+.app-case-study-text img {
+  max-height: .875rem;
+}
+.app-case-study-text p {
+  font-size: .875rem;
+}
+
+.app-case-study-text p a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.footer {
+  padding-top: 10vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer a {
+  color: #fff;
+}
+
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+}
