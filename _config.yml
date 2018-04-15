@@ -64,7 +64,7 @@ features_list:
   - icon: find@4x.png
     icon_alt: Display digital media, share information on venues, artists, concerts and much more.
     text: Display digital media, share information on venues, artists, concerts and much more.
-  - icon: calendar@4x.png
+  - icon: news@4x.png
     icon_alt: Reveal the festival season and sell tickets.
     text: Reveal the festival season and sell tickets.
 
