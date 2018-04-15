@@ -136,7 +136,7 @@ a:hover, a:focus, a:active,
 .app-case-study-text img {
   max-height: .875rem;
 }
-.app-case-study-text p {
+.app-case-study-text p, footer a, footer {
   font-size: .875rem;
 }
 
