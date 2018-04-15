@@ -52,14 +52,14 @@ body_class: ''
                 {% if site.appStoreBadgeLink %}
                 <li>
                     <a class="col-sm-6" href="{{ site.appStoreBadgeLink }}" target="_blank" rel="noopener noreferrer">
-                        <img class="app-store-badge" src="{{ site.url }}/images/appstore-badge@4x.png" alt="Rheingau Musik Festival - App on the Apple App Store">
+                        <img class="app-store-badge" src="{{ site.url }}/images/appstore-badge@4x.png" alt="{{ site.title }} | Available on the iOS App Store">
                     </a>
                 </li>
                 {% endif %}
                 {% if site.playStoreBadgeLink %}
                 <li>
                     <a class="col-sm-6" href="{{ site.playStoreBadgeLink }}" target="_blank" rel="noopener noreferrer">
-                        <img class="app-store-badge" src="{{ site.url }}/images/playstore-badge@4x.png" alt="Rheingau Musik Festival - App on the Google Play Store">
+                        <img class="app-store-badge" src="{{ site.url }}/images/playstore-badge@4x.png" alt="{{ site.title }} | Available on the Google Play Store">
                     </a>
                 </li>
                 {% endif %}
@@ -70,7 +70,7 @@ body_class: ''
         <!-- devices -->
         <div class="text-center col-lg-6 col-md-12 col-sm-12 col-xs-12">
             <a href="{{ site.appStoreLink }}" target="_blank" rel="noopener noreferrer">
-                <img class="iphone-android-group" src="{{ site.url }}/images/iphone-android@2x.png" alt="">
+                <img class="iphone-android-group" src="{{ site.url }}/images/iphone-android@2x.png" alt="{{ site.title }}">
             </a>
             <div class="mx-auto mt-3 app-case-study-text text-left">
                 <p>Case Study: {{ site.case_study_description }} &middot;
