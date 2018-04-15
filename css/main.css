@@ -18,7 +18,7 @@ html {
   min-height: 100vh;
 }
 body {
-  background: url(/images/background@3x.jpg) no-repeat center center fixed;
+  background: url(/images/background@3x.jpg) repeat center center fixed;
   /*background: linear-gradient(225deg, #99D6F5 0%, #749CF6 100%);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
