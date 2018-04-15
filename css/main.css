@@ -39,11 +39,24 @@ body {
   text-align: center;
 }
 
+a, .btn {
+  -webkit-transition: all .125s ease-in-out;
+  -moz-transition: all .125s ease-in-out;
+  -o-transition: all .125s ease-in-out;
+  transition: all .125s ease-in-out;
+}
+
 .btn-primary {
   background: #FEF11E;
   border-color: #FEF11E;
   color: #0C0C0B;
   padding: 0.625rem 1.8125rem;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #eade1c;
+  border-color: #eade1c;
+  color: #0C0C0B;
 }
 
 .app-icon {
