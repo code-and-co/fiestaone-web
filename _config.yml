@@ -59,11 +59,11 @@ description_alignment: text-left
 
 features_list:
   - icon: news@4x.png
-    icon_alt: Keep festival goers updated with the latest using push notifications.
-    text: Keep festival goers updated.
+    icon_alt: Keep festival goers updated with the latest festival news using push notifications.
+    text: Keep festival goers updated with the latest festival news using push notifications.
   - icon: calendar@4x.png
-    icon_alt: Reveal the festival season and sell tickets.
-    text: Reveal the festival season and sell tickets.
+    icon_alt: Reveal the festival season, invite your fans to browse events and sell tickets.
+    text: Reveal the festival season, invite your fans to browse events and sell tickets.
   - icon: find@4x.png
     icon_alt: Display digital media, share information on venues, artists, concerts and much more.
     text: Display digital media, share information on venues, artists, concerts and much more.
