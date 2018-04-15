@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61ae15e0-f2a8-417f-a052-503dba417720" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,22 +16,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+            <state relative-caret-position="1965">
+              <caret line="131" column="17" lean-forward="false" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="538">
               <caret line="75" column="154" lean-forward="false" selection-start-line="75" selection-start-column="154" selection-end-line="75" selection-end-column="154" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="35" column="127" lean-forward="false" selection-start-line="35" selection-start-column="127" selection-end-line="35" selection-end-column="127" />
               <folding />
             </state>
           </provider>
@@ -78,9 +89,9 @@
         <option value="$PROJECT_DIR$/CNAME" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/_includes/header.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -111,8 +122,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,7 +142,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/index.html&#10;main&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/css/main.css&#10;confi&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_config.yml&#10;head&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_includes/header.html&#10;index&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/index.html&#10;he&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_includes/header.html&#10;header&#9;FILE&#9;file:///Users/dan/Code/codeandco/facefighter/facefighter-web/_includes/header.html" />
+    <property name="SearchEverywhereHistoryKey" value="confi&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_config.yml&#10;main&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/css/main.css&#10;head&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_includes/header.html&#10;index&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/index.html&#10;he&#9;FILE&#9;file:///Users/dan/Code/codeandco/fiestaone-web/_includes/header.html&#10;header&#9;FILE&#9;file:///Users/dan/Code/codeandco/facefighter/facefighter-web/_includes/header.html" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,12 +177,13 @@
       <workItem from="1523785206915" duration="91000" />
       <workItem from="1523785415426" duration="1639000" />
       <workItem from="1523787904384" duration="38000" />
-      <workItem from="1523787977957" duration="106000" />
+      <workItem from="1523787977957" duration="117000" />
+      <workItem from="1523811921355" duration="239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33062000" />
+    <option name="totallyTimeSpent" value="33312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="878" extended-state="0" />
@@ -226,6 +238,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="75" column="154" lean-forward="false" selection-start-line="75" selection-start-column="154" selection-end-line="75" selection-end-column="154" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1965">
+          <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
@@ -441,18 +469,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="65" column="71" lean-forward="false" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="131" column="17" lean-forward="true" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
+        <state relative-caret-position="1965">
+          <caret line="131" column="17" lean-forward="false" selection-start-line="131" selection-start-column="17" selection-end-line="131" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -461,6 +481,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="538">
           <caret line="75" column="154" lean-forward="false" selection-start-line="75" selection-start-column="154" selection-end-line="75" selection-end-column="154" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="35" column="127" lean-forward="false" selection-start-line="35" selection-start-column="127" selection-end-line="35" selection-end-column="127" />
           <folding />
         </state>
       </provider>
